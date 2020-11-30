@@ -4,7 +4,7 @@ import './CardItem.css'
 
 export default function CardItem({title, path, img}) {
     return (
-        <Link to={path} className="card">
+        <Link to={`/works/cupy${path}`} className="card">
 
             {/* Image */}
             <img src={img} alt={title} className="card__img"/>

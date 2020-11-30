@@ -4,7 +4,7 @@ import './Button.css'
 
 export default function Button({ children, path, buttonStyles}) {
     return (
-        <Link to={path}>
+        <Link to={`/works/cupy${path}`}>
             <button className={buttonStyles}>
                 {children}
             </button>
