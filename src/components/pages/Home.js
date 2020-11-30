@@ -12,7 +12,7 @@ export default function Home() {
                 {/* Video */}
                 <div className="hero-video-wrapper">
                     <video loop autoPlay muted>
-                        <source src='/img/home_video.mp4' type='video/mp4'/>
+                        <source src='/works/cupy/img/home_video.mp4' type='video/mp4'/>
                     </video>
                 </div>
 
@@ -39,27 +39,27 @@ export default function Home() {
 
                         {/* Item */}
                         <div className="col-12 col-md-6 col-lg-4">
-                            <CardItem path="/" title="Wish and make wishes come true" img="../../img/header_bg.png" />
+                            <CardItem path="/" title="Wish and make wishes come true" img="/works/cupy/img/header_bg.png" />
                         </div>
 
                         {/* Item */}
                         <div className="col-12 col-md-6 col-lg-4">
-                            <CardItem path="/" title="Wish and make wishes come true" img="../../img/header_bg.png" />
+                            <CardItem path="/" title="Wish and make wishes come true" img="/works/cupy/img/header_bg.png" />
                         </div>
 
                         {/* Item */}
                         <div className="col-12 col-md-6 col-lg-4">
-                            <CardItem path="/" title="Wish and make wishes come true" img="../../img/header_bg.png" />
+                            <CardItem path="/" title="Wish and make wishes come true" img="/works/cupy/img/header_bg.png" />
                         </div>
 
                         {/* Item */}
                         <div className="col-12 col-md-6 col-lg-4">
-                            <CardItem path="/" title="Wish and make wishes come true" img="../../img/header_bg.png" />
+                            <CardItem path="/" title="Wish and make wishes come true" img="/works/cupy/img/header_bg.png" />
                         </div>
 
                         {/* Item */}
                         <div className="col-12 col-md-6 col-lg-4">
-                            <CardItem path="/" title="Wish and make wishes come true" img="../../img/header_bg.png" />
+                            <CardItem path="/" title="Wish and make wishes come true" img="/works/cupy/img/header_bg.png" />
                         </div>
                     </div>
                 </div>

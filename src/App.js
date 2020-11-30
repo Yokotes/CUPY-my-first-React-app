@@ -20,13 +20,13 @@ export default function App() {
 
         {/* Website body */}
         <Switch>
-            <Route path="/" exact>
+            <Route path="/works/cupy/" exact>
                 <Home />
             </Route>
-            <Route path="/about">
+            <Route path="/works/cupy/about">
                 <About />
             </Route>
-            <Route path="/faq">
+            <Route path="/works/cupy/faq">
                 <Faq />
             </Route>
         </Switch>

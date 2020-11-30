@@ -6,9 +6,9 @@ import MenuItem from '../core/MenuItem';
 export default function Header() {
     const [menuActive, setMenuActive] = React.useState(false)
     const [items, setCurrentItem] = React.useState([
-        {id: 0, isCurrent: true, path: '/', pageName: 'Home'},
-        {id: 1, isCurrent: false, path: '/about', pageName: 'About'},
-        {id: 2, isCurrent: false, path: '/faq', pageName: 'FAQ'}
+        {id: 0, isCurrent: true, path: '/works/cupy/', pageName: 'Home'},
+        {id: 1, isCurrent: false, path: '/works/cupy/about', pageName: 'About'},
+        {id: 2, isCurrent: false, path: '/works/cupy/faq', pageName: 'FAQ'}
     ])
 
 
