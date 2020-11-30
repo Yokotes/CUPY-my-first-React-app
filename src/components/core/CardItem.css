@@ -1,0 +1,24 @@
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.card:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.card__img {
+    height: 200px;
+}
+
+.card__title {
+    padding: 50px 20px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+}

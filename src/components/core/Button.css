@@ -1,0 +1,15 @@
+.primary-btn {
+    background-color: transparent;
+    border: 3px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all .8s;
+}
+
+.primary-btn:hover {
+    color: #000;
+    background-color: #fff;
+}

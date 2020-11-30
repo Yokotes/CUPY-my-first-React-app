@@ -1,0 +1,20 @@
+.footer {
+    padding: 50px 0;
+    background: url('../../img/header_bg.png') center center/auto;
+    background-color: rgba(0, 0, 0, .78);
+    background-blend-mode: overlay;
+    padding-bottom: 20px;
+}
+
+.footer-text {
+    max-width: 992px;
+    color: #fff;
+    margin-top: 20px;
+    opacity: .5;
+}
+
+.footer-copy {
+    color: #fff;
+    opacity: .3;
+    margin-top: 50px;
+}

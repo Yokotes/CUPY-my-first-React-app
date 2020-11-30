@@ -1,0 +1,64 @@
+.header {
+    background: url('../../img/header_bg.png') center center/auto;
+    background-color: rgba(0, 0, 0, .78);
+    background-blend-mode: overlay;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+
+    box-shadow: 
+                inset 0px -10px 10px -5px rgba(0, 0, 0, .5), 
+                inset 0px 10px 10px -5px rgba(255, 255, 255, .1);
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.burger {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: rgb(255, 47, 47);
+    margin-left: 30px;
+    width: 50px;
+    text-align: center;
+}
+
+.burger:focus {
+    outline: none;
+}
+
+@media (max-width: 992px) {
+    .menu ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        background-color: #151515;
+        transition: all .8s;
+        opacity: 0;
+    }
+
+    .menu ul.active {
+        left: 0;
+        opacity: 1;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+}
